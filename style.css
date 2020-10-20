@@ -1,35 +1,51 @@
 .containerTopNav {
-    height: 80px;
-    padding-top: 10px;
-    background-color: #ffffff;
-    font-family: din-condensed, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: #b56576;
+  height: 80px;
+  padding-top: 10px;
+  background-color: #ffffff;
+  font-family: din-condensed, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #b56576;
+}
+
+.images {
+  display: inline;
   }
   
-  .images {
-    display: inline;
+  .grid-container {
+      display: grid;
+    }
   
-    }
-    
 
-    
-   
-    
-    #hexcode {
-    padding: 15px;
-    text-align: center;
-    border-top: none;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+  
+  #hexcode {
+  padding: 15px;
+  text-align: center;
+  border-top: none;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  }
+  
+  #buttons {
+  display: inline-block;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  color: white; 
+  }
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
     }
     
-    #buttons {
-    display: inline-block;
-    padding: 15px;
-    width: 150px;
-    text-align: center;
-    color: white; 
+    /* Create two equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 0.4px;
     }
     
+    .column img {
+      margin-top: 8px;
+      vertical-align: left;
+    }  
