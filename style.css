@@ -1,0 +1,35 @@
+.containerTopNav {
+    height: 80px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    font-family: din-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #b56576;
+  }
+  
+  .images {
+    display: inline;
+  
+    }
+    
+
+    
+   
+    
+    #hexcode {
+    padding: 15px;
+    text-align: center;
+    border-top: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    }
+    
+    #buttons {
+    display: inline-block;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    color: white; 
+    }
+    
